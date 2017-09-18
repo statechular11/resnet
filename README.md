@@ -43,3 +43,9 @@ pred_resnet101 = np.argmax(image_tensor)
 pred_resnet152 = np.argmax(image_tensor)
 
 ```
+
+![Sample dog image](images/dog.jpeg =250x)
+
+The above dog image is predicted to have
+-  257: 'Great Pyrenees' by ResNet-101
+-  257: 'Great Pyrenees' by ResNet-152
