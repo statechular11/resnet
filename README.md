@@ -9,8 +9,7 @@ ResNet serves as an extension to [Keras Applications](https://keras.io/applicati
 The module is based on [Felix Yu](https://github.com/flyyufelix)'s implementation of ResNet-101 and ResNet-152, and his trained weights. Slight modifications have been made to make ResNet-101 and ResNet-152 have consistent API as those pre-trained models in 
 [Keras Applications](https://keras.io/applications/). Code is also updated to Keras 2.0.
 
-Felix Yu's original implementation of ResNet-101 is found [here](https://gist.github.com/flyyufelix/65018873f8cb2bbe95f429c474aa1294).
-Felix Yu's original implementation of ResNet-152 is found [here](https://gist.github.com/flyyufelix/7e2eafb149f72f4d38dd661882c554a6).
+Felix Yu's original implementation of ResNet-101 is found [here](https://gist.github.com/flyyufelix/65018873f8cb2bbe95f429c474aa1294) and ResNet-152 [here](https://gist.github.com/flyyufelix/7e2eafb149f72f4d38dd661882c554a6).
 
 Usuage
 ------
