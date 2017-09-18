@@ -1,7 +1,5 @@
 # ResNet
 
-.. image:: https://travis-ci.org/broadinstitute/keras-resnet.svg?branch=master
-    :target: https://travis-ci.org/broadinstitute/keras-resnet
 
 Overview
 --------
@@ -16,24 +14,26 @@ The module is based on [Felix Yu](https://github.com/flyyufelix)'s implementatio
 Installation
 ------------
 
-```
-$ pip install keras-resnet
+```shell
+pip install keras-resnet
 ```
 
 
 Usuage
 ------
 
-```
+```python
 import ResNet
 import numpy as np
 from keras.preprocessing.image import load_img, img_to_array
+
 #-------------------------------------
 #   Load pre-trained models
 #-------------------------------------
 resnet50  = ResNet.ResNet50(weights='imagenet')
 resnet101 = ResNet.ResNet101(weights='imagenet')
 resnet152 = ResNet.ResNet152(weights='imagenet')
+
 #-------------------------------------
 #   Helper functions
 #-------------------------------------
@@ -42,6 +42,7 @@ def path_to_tensor(image_path, target_size):
     tensor = img_to_array(image)
     tensor = np.expand_dims(tensor, axis=0)
     return tensor
+
 #-------------------------------------
 #   Make predictions
 #-------------------------------------
@@ -53,7 +54,7 @@ pred_resnet152 = np.argmax(resnet152.predict(image_tensor))
 ```
 
 
-![Sample dog image](images/dog.jpeg)
+![Sample dog image](examples/images/dog.jpeg)
 
 The above dog image is predicted to have
 -  257: 'Great Pyrenees' by ResNet-50
