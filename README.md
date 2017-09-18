@@ -44,7 +44,7 @@ pred_resnet152 = np.argmax(image_tensor)
 
 ```
 
-![Sample dog image](images/dog.jpeg =250x)
+![Sample dog image](images/dog.jpeg)
 
 The above dog image is predicted to have
 -  257: 'Great Pyrenees' by ResNet-101
