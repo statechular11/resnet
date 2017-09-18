@@ -1,5 +1,4 @@
-ResNet
-======
+# ResNet
 
 .. image:: https://travis-ci.org/broadinstitute/keras-resnet.svg?branch=master
     :target: https://travis-ci.org/broadinstitute/keras-resnet
