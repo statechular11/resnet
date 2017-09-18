@@ -1,0 +1,11 @@
+setup.cfg
+setup.py
+resnet/__init__.py
+resnet/resnet101.py
+resnet/resnet152.py
+resnet.egg-info/PKG-INFO
+resnet.egg-info/SOURCES.txt
+resnet.egg-info/dependency_links.txt
+resnet.egg-info/not-zip-safe
+resnet.egg-info/requires.txt
+resnet.egg-info/top_level.txt
