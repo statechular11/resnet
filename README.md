@@ -29,23 +29,6 @@ resnet152 = ResNet.ResNet152(weights='imagenet')
 #   Helper functions
 #-------------------------------------
 def path_to_tensor(image_path, target_size):
-    """
-    Read an image from its path, resize it to a specified size (height, width),
-    and return a numpy array that is ready to be passed to the `predict` method
-    of a trained model
-
-    Parameters
-    ----------
-    image_path: string
-        the path of an image
-    target_size: tuple/list
-        (height, width) of the image
-
-    Returns
-    -------
-        a numpy array that is to be readily passed to the `predict` method of
-        a trained model
-    """
     image = load_img(image_path, target_size=target_size)
     tensor = img_to_array(image)
     tensor = np.expand_dims(tensor, axis=0)
