@@ -5,9 +5,9 @@
 
 - [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385)
 
-All credits to Felix Yu (https://github.com/flyyufelix). Slightly modified his
-implementation of ResNet152 to have consistent API as those pre-trained model
-within `keras.applications`. The original implementation is found there
+Slightly modified Felix Yu's (https://github.com/flyyufelix) implementation of
+ResNet-152 to have consistent API as those pre-trained models within
+`keras.applications`. The original implementation is found here
 https://gist.github.com/flyyufelix/7e2eafb149f72f4d38dd661882c554a6#file-resnet-152_keras-py-L27
 
 Implementation is based on Keras 2.0
