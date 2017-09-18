@@ -21,6 +21,7 @@ from keras.preprocessing.image import load_img, img_to_array
 #-------------------------------------
 #   Load pre-trained models
 #-------------------------------------
+resnet50  = ResNet.ResNet50(weights='imagenet')
 resnet101 = ResNet.ResNet101(weights='imagenet')
 resnet152 = ResNet.ResNet152(weights='imagenet')
 
@@ -38,6 +39,7 @@ def path_to_tensor(image_path, target_size):
 #-------------------------------------
 image_path = 'images/dog.jpeg'
 image_tensor = path_to_tensor(image_path)
+pred_resnet50  = np.argmax(image_tensor)
 pred_resnet101 = np.argmax(image_tensor)
 pred_resnet152 = np.argmax(image_tensor)
 
@@ -46,6 +48,7 @@ pred_resnet152 = np.argmax(image_tensor)
 ![Sample dog image](images/dog.jpeg)
 
 The above dog image is predicted to have
+-  257: 'Great Pyrenees' by ResNet-50
 -  257: 'Great Pyrenees' by ResNet-101
 -  257: 'Great Pyrenees' by ResNet-152
 
