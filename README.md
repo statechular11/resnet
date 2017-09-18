@@ -48,3 +48,7 @@ pred_resnet152 = np.argmax(image_tensor)
 The above dog image is predicted to have
 -  257: 'Great Pyrenees' by ResNet-101
 -  257: 'Great Pyrenees' by ResNet-152
+
+Contact
+-------
+If you have any questions or encounter any bugs, please contact the author (Feiyang Niu, Feiyang.Niu@gilead.com)
