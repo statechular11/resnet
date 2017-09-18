@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: resnet
+Version: 0.1
+Summary: keras-style API to ResNets (ResNet-50, ResNet-101, and ResNet-152)
+Home-page: https://github.com/statech/resnet
+Author: Feiyang Niu
+Author-email: feiyang.niu@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
