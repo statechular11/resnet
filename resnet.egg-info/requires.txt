@@ -1,0 +1,2 @@
+hashlib
+keras>=2.0
