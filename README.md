@@ -57,5 +57,5 @@ If you have any questions or encounter any bugs, please contact the author (Feiy
 
 References
 ----------
-- He and etc 2015 Deep Residual Learning for Image Recognition [arXiv:1512.03385](arXiv:1512.03385)
+- He and etc 2015 Deep Residual Learning for Image Recognition [arXiv:1512.03385](https://arxiv.org/abs/1512.03385)
 - Felix Yu's original implementation of ResNet-101 is found [here](https://gist.github.com/flyyufelix/65018873f8cb2bbe95f429c474aa1294) and ResNet-152 [here](https://gist.github.com/flyyufelix/7e2eafb149f72f4d38dd661882c554a6).
