@@ -46,7 +46,7 @@ def path_to_tensor(image_path, target_size):
 #-------------------------------------
 #   Make predictions
 #-------------------------------------
-image_path = 'images/dog.jpeg'
+image_path = 'examples/images/dog.jpeg'
 image_tensor = path_to_tensor(image_path, (224, 224))
 pred_resnet50  = np.argmax(resnet50.predict(image_tensor))
 pred_resnet101 = np.argmax(resnet101.predict(image_tensor))
