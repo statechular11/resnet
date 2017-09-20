@@ -15,7 +15,7 @@ Installation
 ------------
 
 ```shell
-pip install keras-resnet
+pip install resnet
 ```
 
 
@@ -23,16 +23,16 @@ Usuage
 ------
 
 ```python
-import ResNet
+import resnet
 import numpy as np
 from keras.preprocessing.image import load_img, img_to_array
 
 #-------------------------------------
 #   Load pre-trained models
 #-------------------------------------
-resnet50  = ResNet.ResNet50(weights='imagenet')
-resnet101 = ResNet.ResNet101(weights='imagenet')
-resnet152 = ResNet.ResNet152(weights='imagenet')
+resnet50  = resnet.ResNet50(weights='imagenet')
+resnet101 = resnet.ResNet101(weights='imagenet')
+resnet152 = resnet.ResNet152(weights='imagenet')
 
 #-------------------------------------
 #   Helper functions
