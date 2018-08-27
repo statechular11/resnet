@@ -10,7 +10,7 @@ setup(name='resnet',
       author_email='feiyang.niu@gmail.com',
       license='MIT',
       packages=['resnet'],
-      install_requires=['keras>=2.0'],
+      install_requires=['keras>=2.2.2'],
       classifiers=[],
       include_package_data=True,
       zip_safe=False)
