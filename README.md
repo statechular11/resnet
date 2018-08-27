@@ -19,7 +19,7 @@ pip install resnet
 ```
 
 
-Usuage
+Usage
 ------
 
 ```python
